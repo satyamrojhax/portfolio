@@ -1,0 +1,61 @@
+/* CV Button Styles */
+.cv-button {
+    margin-left: 20px;
+    margin-right: 15px;
+}
+
+.btn-cv {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6px 12px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: #ffffff;
+    background: linear-gradient(135deg, rgba(0, 238, 255, 0.2), rgba(112, 0, 255, 0.2));
+    border: 1px solid rgba(0, 238, 255, 0.4);
+    border-radius: 20px;
+    box-shadow: 0 4px 15px rgba(0, 238, 255, 0.2);
+    backdrop-filter: blur(10px);
+    transition: all 0.3s ease;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.btn-cv i {
+    margin-left: 6px;
+    font-size: 0.8rem;
+}
+
+.btn-cv:hover {
+    background: linear-gradient(135deg, rgba(0, 238, 255, 0.4), rgba(112, 0, 255, 0.4));
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(0, 238, 255, 0.3);
+}
+
+/* Responsive styles */
+@media screen and (max-width: 992px) {
+    .cv-button {
+        position: absolute;
+        right: 70px;
+        top: 15px;
+        margin: 0;
+    }
+    
+    .btn-cv {
+        font-size: 0.7rem;
+        padding: 5px 10px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .cv-button {
+        right: 60px;
+    }
+    
+    .btn-cv {
+        font-size: 0.6rem;
+        padding: 4px 8px;
+    }
+} 

@@ -1,0 +1,2 @@
+Create a favicon.png file with Satyam's initials "SR" in a futuristic design with cyan and purple gradient colors.
+Place the favicon.png file in this directory. 
